@@ -1,161 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>kanban</title>
+    <title>Random-coffee</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/league.css">
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/league.css" />
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h1>kanban</h1>
-					<hr>
-					<p>
-						<small>Created by <a href="https://github.com/saniok017">Naumenko Alexandr</a></small>
-					</p>
-					<aside class="notes">
-						Hello, my name is Alexandr. And today I want to talk about Kanban methodology.
-					</aside>
-				</section>
-				<section>
-					<section>
-						<h3>What is kanban?</h3>
-						<aside class="notes">
-							for those of you, who don't know about this methodology I will make a brief explanation tour. In which, I will explain what is Kanban and how to successfully implement it in your business process or life. 
-						</aside>
-					</section>
-					<section>
-						<span>Maybe this one?<br><img alt="Piper Perri Surrounded meme" src="/img/joke.jpg" height="238"></span>
-						<aside class="notes">
-							when you heard the word kanban for the first time its possible you visualized this meme but I  want to assure you it has nothing in common. And this topic we will discuss next time. 
-						</aside>
-					</section>
-					<section>
-						<blockquote cite="https://en.wikipedia.org/wiki/Kanban_(development)">
-							&ldquo;Kanban (Mandarin Chinese 看板, Kànbǎn, "dashboard") is a <strong class="highlight-blue">lean</strong><small>(a systematic method for waste minimization)</small> method to manage and improve work across human systems.&rdquo;
-						</blockquote>
-						<aside class="notes">
-							According to Wikipedia, Kanban is a lean method to manage and improve work across human systems.
-						</aside>
-					</section>
-					<section>
-						<img src="/img/kanbanToyota.jpg" alt="Toyota manufacturing floor">
-						<aside class="notes">
-							The first Kanban system was developed by Taiichi Ohno(Industrial Engineer and Businessman) for Toyota automotive in Japan. It was created as a simple planning system, the aim of which was to control and manage work and inventory at every stage of production optimally.With Kanban, Toyota achieved a flexible and efficient just-in-time production control system that increased productivity while reducing cost-intensive inventory of raw materials, semi-finished materials, and finished products.
-						</aside>
-					</section>
-					<section>
-						<p>In knowledge work and in software development, the aim is to provide a visual process-management system which aids decision-making about what, when and how much to produce.</p>	
-						<h3>workflow visualization system</h3>
-						<aside class="notes">
-							In knowledge work and in software development, the aim is to provide a visual process-management system which aids decision-making about what, when and how much to produce. With enother words workflow visualization system.
-						</aside>
-					</section>
-					<section>
-						<h2>kanban board</h2>
-						<img src="/img/board.png" alt="kanban board" height="400">
-						<aside class="notes">
-							workflow visualization can be achieved with a physical board or an electronic Kanban Board. this is an example of how it may look like. Kanban is quite flexible and you can use any number of columns, and run it with a different number of team members and even for personal use.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<img alt="kanban board" src="/img/4staps.png">
-					<aside class="notes">
-						The Kanban Method follows a set of principles and practices for managing and improving the flow of work. It is an evolutionary, non-disruptive method that promotes gradual improvements to an organization’s processes. If you follow these principles and practices, you will successfully be able to use Kanban for maximizing the benefits to your business process – improve flow, reduce cycle time, increase value to the customer, with greater predictability – all of which are crucial to any business today. Ill show you how to successfully implement Kanban in your business process or life in 4 easy steps.
-					</aside>
-				</section>
-				<section>
-					<section>
-						<img alt="stickies" src="/img//step1.png">
-						<aside class="notes">
-							First step. Visualise  your work
-						</aside>
-					</section>
-					<section>
-						<img src="/img/evolution-of-kanban-board.gif" alt="evolution of kanban board">
-						<aside class="notes">
-							First, break down the flow of work from the moment you start it to when it's finished into distinctive steps and draw a column for each. Next, get some stickies. Write down each task on a separate sticky note. Use different colors for different types of work. Put them on the whiteboard. Each task will move from left to right until it's done and leaves the workflow. A simple layout like this one (TO DO IN PROCESS AND DONE ) can be a good starting point, especially for personal kanban or small teams. 
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<img alt="juggling man" src="/img/2step.png">
-						<aside class="notes">
-							Second step. Limit work in progress. With two hands you can juggle only few balls before you start dropping them. Kanban is all about maintaining flow and eliminating waste.
-						</aside>
-					</section>
-					<section>
-						<img src="/img/wipLimits.png" alt="kanban board">
-						<aside class="notes">
-							Start by putting limits on columns in which work is being performed. WIP Limits aim to enforce a high, smooth flow of work and eliminate different kinds of waste. Remember there is no such thing as kanban police, and It's up to you to decide which limits to set. Kanban helps your team analyze the system and make adjustments to improve flow so as to reduce the time it takes to complete each piece of work.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<section>
-						<img alt="push buttons" src="/img/3step.png">
-						<aside class="notes">
-							Third step. Dont push too hard. Pull instead. 
-						</aside>
-					</section>
-					<section>
-						<img src="/img/buffer.png" alt="kanban board">
-						<aside class="notes">
-							It's easy to get friction between different teams, especially when one is performing better and pushes more work than another one can actually handle. A solution to this is a pull system, where next team pulls work only when they are ready for it. You can implement pull system by adding a limited capacity buffer between teams. A key aspect of this process of observing your work and resolving/ eliminating bottlenecks is to look at the intermediate wait stages (the intermediate Done stages) and see how long work items stay in these “handoff stages”. As you will learn, reducing the time spent in these wait stages is key to reducing Cycle Time. As you improve flow, your team’s delivery of work becomes smoother and more predictable. As it becomes more predictable, it becomes easier for you to make reliable commitments to your customer about when you will get done with any work you are doing for them. Improving your ability to forecast completion times reliably is a big part of implementing a Kanban system!
-						</aside>
-					</section>
-				</section>
-				<section>
-					<img alt="Cumulative Flow Chart" src="/img/step4.png">
-					<aside class="notes">
-						Forth step Use, monitor, adapt and improve. The best tool to measure Kanban performance is Cumulative Flow Chart. Each day, for each column, mark how many tasks are in it or somewhere further down the workflow. This will produce a mountain-like looking chart, which gives insight into the process, shows past performance and allows to predict future results. But most of all...
-					</aside>
-				</section>
-				<section data-background="/img/board.png">
-					<img alt="man loves his job" src="/img/man loves his job.png">
-					<aside class="notes">
-						Enjoy Kanban.
-					</aside>
-				</section>
-				<section>
-					<h2>thank you for watching</h2>
-					<aside class="notes">
-						have a nice day and thank you for watching.
-					</aside>
-				</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? 'css/print/pdf.css'
+        : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Random-coffee</h1>
+          <hr />
+          <p>
+            <small
+              >Created by
+              <a href="https://github.com/saniok017/Server/graphs/contributors"
+                >WGForge-team</a
+              ></small
+            >
+          </p>
+          <aside class="notes">
+            insert some notes here.
+          </aside>
+        </section>
+        <section>
+          <section>
+            <h3>M E R N?</h3>
+            <br /><img
+              alt="стэк технологий"
+              src="/img/mern_foto.jpg"
+              height="238"
+            />
+            <aside class="notes">
+              текст второго слайда
+            </aside>
+          </section>
+          <section>
+            <img src="/img/js_everywhere.jpg" alt="js_everywhere meme" />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <blockquote
+              cite="https://en.wikipedia.org/wiki/Kanban_(development)"
+            >
+              &ldquo;
+              <strong class="highlight-blue">Always bet on JavaScript.</strong
+              ><small>(Brendan Eich)</small>&rdquo;
+            </blockquote>
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <span
+              >текст?<br /><img
+                alt="Piper Perri Surrounded meme"
+                src="/img/joke.jpg"
+                height="238"
+            /></span>
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <p>текст.</p>
+            <h3>текст</h3>
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <h2>текст</h2>
+            <img
+              src="/img/backend.png"
+              alt="фото back end разработчика"
+              height="400"
+            />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+        </section>
+        <section>
+          <section>
+            <img alt="бот" src="/img/BotTelegram.png" height="500" />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <img alt="бот" src="/img/BanderBot.gif" />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+        </section>
+        <section>
+          <section>
+            <img alt="stickies" src="/img//step1.png" />
+            <aside class="notes">
+              текст
+            </aside>
+          </section>
+          <section>
+            <img
+              src="/img/evolution-of-kanban-board.gif"
+              alt="evolution of kanban board"
+            />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+        </section>
+        <section>
+          <section>
+            <img alt="juggling man" src="/img/2step.png" />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <img
+              src="/img/what-happened-to-my-cron-job.jpg"
+              alt="крутое фото"
+            />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+        </section>
+        <section>
+          <section>
+            <img alt="push buttons" src="/img/3step.png" />
+            <aside class="notes">
+              текст.
+            </aside>
+          </section>
+          <section>
+            <img src="/img/git_merge.jpg" alt="крутое фото" />
+            <aside class="notes">
+              текст!
+            </aside>
+          </section>
+        </section>
+        <section>
+          <img alt="Cumulative Flow Chart" src="/img/step4.png" />
+          <aside class="notes">
+            текст
+          </aside>
+        </section>
+        <section>
+          <img alt="крутое фото" src="/img/china-coffee-cup.jpg.webp" />
+          <aside class="notes">
+            текст.
+          </aside>
+        </section>
+        <section>
+          <h2>Будьте бдительны</h2>
+          <aside class="notes">
+            текст.
+          </aside>
+        </section>
+      </div>
+    </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			Reveal.initialize({
-				transition: 'fade',
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      Reveal.initialize({
+        transition: 'fade',
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
